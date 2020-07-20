@@ -165,3 +165,9 @@ a.mybutton {
   box-sizing: border-box;
   margin-top: 50px;
 }
+
+.tbox p:last-of-type {
+  padding-top: 0.5rem;
+  padding-right: 0.8rem;
+  text-align: end;
+}
