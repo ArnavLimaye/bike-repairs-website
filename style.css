@@ -36,6 +36,11 @@ main {
   align-items: center;
 }
 
+.contact-us-main {
+  min-height: 300px;
+  padding-top: 50px;
+}
+
 .cards {
   display: flex;
   justify-content: space-between;
@@ -199,4 +204,38 @@ a.mybutton {
 
 .dropdown .navbutton a {
   color: #fa4083;
+}
+
+.input-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+form {
+  margin: 40px 0px;
+}
+
+select {
+  padding: 6px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
 }
